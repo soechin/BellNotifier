@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="Bell Notifier"
     Width="240"
-    Height="240"
+    Height="180"
     Closed="Window_Closed"
     Loaded="Window_Loaded"
     ResizeMode="CanMinimize"
@@ -20,5 +20,16 @@
             VerticalAlignment="Bottom">
             <TextBlock x:Name="StatusText" />
         </StatusBar>
+        <TextBlock
+            x:Name="ChannelText"
+            Margin="10,10,10,0"
+            VerticalAlignment="Top"
+            FontSize="36"
+            TextAlignment="Center" />
+        <TextBlock
+            x:Name="TimeText"
+            Margin="10,61,10,0"
+            VerticalAlignment="Top"
+            TextAlignment="Center" />
     </Grid>
 </Window>
